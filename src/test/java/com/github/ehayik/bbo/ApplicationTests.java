@@ -17,7 +17,7 @@ class ApplicationTests {
 	GreetingsService greetingsService;
 
 	@Test
-	void greetingsServiceShouldBeOverriding() {
+	void greetingsServiceShouldBeOverridden() {
 
 		try (var logCaptor = LogCaptor.forClass(TestAppConfiguration.class)) {
 			// When
